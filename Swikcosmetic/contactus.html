@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us</title>
+</head>
+<body>
+  <header>
+    <h1><font color="hotpink"><i><b>Contact Us</b></i></font></h1>
+    <p><font color="pink"><b>"We'd love to hear from you! Reach out with your questions or feedback."</b></font></p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="FAQs.html">FAQs</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <section>
+    <h2><font color="pink">Get in Touch</font></h2>
+    <form action="/submit_contact" method="post">
+      <label for="name"><font color="hotpink">Name:</font></label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="subject"><font color="hotpink">Subject:</font></label><br>
+      <input type="text" id="subject" name="subject" required><br><br>
+
+      <label for="email"><font color="hotpink">Email:</font></label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message"><font color="hotpink">Message:</font></label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <button type="submit"><font color="hotpink"><b>Send</b></font></button>
+    </form>
+  </section>
+</body>
+</html>
